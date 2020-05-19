@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:id="@+id/tvRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2pt"
+            android:textAlignment="textEnd" />
+
+        <TextView
+            android:id="@+id/tvHieroglyph"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick_tvHieroglyph"
+            android:paddingTop="5pt"
+            android:text="空的"
+            android:textAlignment="center"
+            android:textSize="90sp" />
+
+        <TextView
+            android:id="@+id/tvPinyin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick_tvHieroglyph"
+            android:paddingBottom="5pt"
+            android:text="Kōng de"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tvTranslate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick_tvHieroglyph"
+            android:paddingTop="5pt"
+            android:paddingBottom="5pt"
+            android:text="Пустой"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="20pt"
+            android:paddingBottom="10pt">
+
+            <Button
+                android:id="@+id/bYes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onClick_bYes"
+                android:text="@string/bYes"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/bNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onClick_bNo"
+                android:text="@string/bNo"
+                android:textSize="36sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

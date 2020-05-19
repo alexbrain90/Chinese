@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="32dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/bHSK1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bHSK1" />
+
+        <Button
+            android:id="@+id/bHSK2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bHSK2" />
+
+        <Button
+            android:id="@+id/bHSK3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bHSK3" />
+
+        <Button
+            android:id="@+id/bHSK4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bHSK4" />
+
+        <Button
+            android:id="@+id/bHSK5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bHSK5" />
+
+        <Button
+            android:id="@+id/bHSK6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bHSK6" />
+
+        <Button
+            android:id="@+id/bLoad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick_bLoad"
+            android:text="@string/bLoad" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

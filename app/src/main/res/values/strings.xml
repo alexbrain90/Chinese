@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Chinese</string>
+    <string name="bYes">Yes</string>
+    <string name="bNo">No</string>
+    <string name="bAdd">Add</string>
+    <string name="tvHieroglyph">Hieroglyph</string>
+    <string name="tvPinyin">Pinyin</string>
+    <string name="tvTranslate">Translate</string>
+    <string name="bLoad">Load from file</string>
+    <string name="tvRating">"Rating: "</string>
+    <string name="bHSK1">Load HSK1</string>
+    <string name="bHSK2">Load HSK2</string>
+    <string name="bHSK3">Load HSK3</string>
+    <string name="bHSK4">Load HSK4</string>
+    <string name="bHSK5">Load HSK5</string>
+    <string name="bHSK6">Load HSK6</string>
+</resources>

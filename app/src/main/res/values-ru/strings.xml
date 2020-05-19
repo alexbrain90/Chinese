@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Китайский</string>
+    <string name="bYes">Да</string>
+    <string name="bNo">Нет</string>
+    <string name="bAdd">Добавить</string>
+    <string name="tvHieroglyph">Иероглиф</string>
+    <string name="tvPinyin">Пиньинь</string>
+    <string name="tvTranslate">Перевод</string>
+    <string name="bLoad">Загрузить из файла</string>
+    <string name="tvRating">"Рейтинг: "</string>
+    <string name="bHSK1">Загрузить HSK1</string>
+    <string name="bHSK2">Загрузить HSK2</string>
+    <string name="bHSK3">Загрузить HSK3</string>
+    <string name="bHSK4">Загрузить HSK4</string>
+    <string name="bHSK5">Загрузить HSK5</string>
+    <string name="bHSK6">Загрузить HSK6</string>
+</resources>
